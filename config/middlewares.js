@@ -12,6 +12,7 @@ module.exports = ({ env }) => [
             'data:',
             'blob:',
             'dl.airtable.com',
+            'market-assets.strapi.io',
             'testbucket-strapi.s3.ap-south-1.amazonaws.com',
           ],
           'media-src': [
@@ -20,11 +21,15 @@ module.exports = ({ env }) => [
             'blob:',
             'dl.airtable.com',
             'testbucket-strapi.s3.ap-south-1.amazonaws.com',
+            'market-assets.strapi.io' ,
+            
           ],
           upgradeInsecureRequests: null,
         },
       },
     },
+
+
   },
   "strapi::cors",
   "strapi::poweredBy",
