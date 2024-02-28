@@ -1,0 +1,41 @@
+{
+  "collectionName": "components_title_titles",
+  "info": {
+    "displayName": "Board_members_multiple",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Full_Name": {
+      "type": "string"
+    },
+    "Designation": {
+      "type": "string"
+    },
+    "Linkedin_Profile_Link": {
+      "type": "string"
+    },
+    "Desktop_Banner_Image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "Mobile_Banner_Image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    }
+  }
+}

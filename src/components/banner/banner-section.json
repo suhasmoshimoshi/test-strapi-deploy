@@ -1,0 +1,59 @@
+{
+  "collectionName": "components_banner_banner_sections",
+  "info": {
+    "displayName": "Banner Section"
+  },
+  "options": {},
+  "attributes": {
+    "Heading_Title": {
+      "type": "text"
+    },
+    "Subtitle": {
+      "type": "string"
+    },
+    "Variable_Text": {
+      "type": "text"
+    },
+    "Desktop_Banner_Image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "Mobile_Banner_Image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "Video_Embed_Link": {
+      "type": "string"
+    },
+    "Lead_Form_Title": {
+      "type": "string"
+    },
+    "CTA_Button_Name": {
+      "type": "string"
+    },
+    "Link": {
+      "type": "string"
+    },
+    "Full_Name": {
+      "type": "boolean"
+    },
+    "Email_Address": {
+      "type": "boolean"
+    },
+    "Phone_Number": {
+      "type": "boolean"
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_board_members_multiple_title_and_descriptions",
+  "info": {
+    "displayName": "title_and_description"
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "string"
+    }
+  }
+}

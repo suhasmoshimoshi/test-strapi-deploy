@@ -1,0 +1,38 @@
+{
+  "kind": "singleType",
+  "collectionName": "abouts",
+  "info": {
+    "singularName": "about",
+    "pluralName": "abouts",
+    "displayName": "About",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "SEO": {
+      "type": "component",
+      "repeatable": false,
+      "component": "seo.seo-section"
+    },
+    "Banner_Section": {
+      "type": "component",
+      "repeatable": false,
+      "component": "banner.banner-section"
+    },
+    "Meet_The_Leader": {
+      "type": "component",
+      "repeatable": false,
+      "component": "meet-the-leader.meet-the-leader"
+    },
+    "Board_members_and_Management_Section": {
+      "type": "dynamiczone",
+      "components": [
+        "board-members-multiple.title-and-description",
+        "board-members-multiple.title"
+      ]
+    }
+  }
+}

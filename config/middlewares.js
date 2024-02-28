@@ -1,27 +1,27 @@
 module.exports = ({ env }) => [
   "strapi::errors",
   {
-    name: "strapi::security",
+    name: 'strapi::security',
     config: {
       contentSecurityPolicy: {
         useDefaults: true,
         directives: {
-          "connect-src": ["'self'", "https:"],
-          "default-src": ["'self'"],
-          "img-src": [
+          'connect-src': ["'self'", 'https:'],
+          'img-src': [
             "'self'",
-            "data:",
-            "blob:",
-            "market-assets.strapi.io",
-            env("SUPABASE_URL"),
+            'data:',
+            'blob:',
+            'dl.airtable.com',
+            'testbucket-strapi.s3.ap-south-1.amazonaws.com',
           ],
-          "media-src": [
+          'media-src': [
             "'self'",
-            "data:",
-            "blob:",
-            "market-assets.strapi.io",
-            env("SUPABASE_URL"),
+            'data:',
+            'blob:',
+            'dl.airtable.com',
+            'testbucket-strapi.s3.ap-south-1.amazonaws.com',
           ],
+          upgradeInsecureRequests: null,
         },
       },
     },

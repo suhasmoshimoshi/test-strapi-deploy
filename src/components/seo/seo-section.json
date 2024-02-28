@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_seo_seo_sections",
+  "info": {
+    "displayName": "SEO Section"
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "string"
+    },
+    "URL": {
+      "type": "string"
+    },
+    "Canonical": {
+      "type": "string"
+    }
+  }
+}
